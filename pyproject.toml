@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stweight"
+version = "0.1.0"
+description = "Reproduce paper-style spatio-temporal weight matrix TW (W, Moran's I, T, Kronecker)."
+requires-python = ">=3.9"
+dependencies = ["numpy", "pandas", "scipy"]
